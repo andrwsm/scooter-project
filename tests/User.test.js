@@ -1,5 +1,5 @@
 const User = require('../src/User');
-import { describe, it, expect} from '@jest/globals';
+import {describe, expect, test} from '@jest/globals'
 
 const user = new User("Joe Bloggs", "test123", 21);
 
@@ -10,7 +10,7 @@ describe("User property tests", () => {
     expect(typeof user.username).toBe("string");
   })
   // test password
-
+  
   // test age
 })
 

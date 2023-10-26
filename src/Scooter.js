@@ -7,7 +7,7 @@ static nextSerial = 1
     this.user = null;
     this.serial = Scooter.nextSerial++;
     this.charge = 10;
-    this.isBroken = false;
+    this.isBroken = true;
   }
 
 
@@ -49,11 +49,19 @@ static nextSerial = 1
     }, interval)
   }
 
-
+requestRepair(){
+  console.log('repairing')
+  if (this.isBroken === true){
+    setTimeout(function () {
+      console.log("Fixed!");
+    }, 5000);
+  }
+}
 }
 
 
-
+let scooter1 = new Scooter
+scooter1.requestRepair()
 
 
 module.exports = Scooter
