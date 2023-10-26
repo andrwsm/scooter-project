@@ -1,4 +1,5 @@
 const User = require('../src/User');
+import { describe, it, expect} from '@jest/globals';
 
 const user = new User("Joe Bloggs", "test123", 21);
 
