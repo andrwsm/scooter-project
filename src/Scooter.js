@@ -2,11 +2,11 @@ class Scooter{
   // scooter code here
 static nextSerial = 1
 
-  constructor(station, user, serial, charge, isBroken){
+  constructor(station){
     this.station = station;
     this.user = null;
-    this.serial = Scooter.nextSerial++;
-    this.charge = 10;
+    this.serial = Scooter.nextSerial;
+    this.charge = 100;
     this.isBroken = true;
   }
 
@@ -62,7 +62,8 @@ requestRepair(){
 
 let scooter1 = new Scooter
 
-
+// scooter1.charge = 15;
+// scooter1.recharge()
 
 
 module.exports = Scooter

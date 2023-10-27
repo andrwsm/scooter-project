@@ -21,7 +21,7 @@ class User {
   }
 }
 
-// const u1 = new User("joe", "j123", 34)
+// const u1 = new User("Dylan", "j123", 34)
 // u1.login('j123')
 
 
