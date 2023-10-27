@@ -61,7 +61,8 @@ requestRepair(){
 
 
 let scooter1 = new Scooter
-scooter1.requestRepair()
+
+
 
 
 module.exports = Scooter

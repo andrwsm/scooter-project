@@ -1,6 +1,6 @@
 class User {
   // User code here
-  constructor(username, password, age, loggedIn){
+  constructor(username, password, age){
     this.username = username
     this.password = password
     this.age = age
@@ -21,9 +21,8 @@ class User {
   }
 }
 
-const u1 = new User("joe", "j123", 34)
-u1.login("j123")
-u1.logout()
+// const u1 = new User("joe", "j123", 34)
+// u1.login('j123')
 
 
 module.exports = User
