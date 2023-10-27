@@ -62,8 +62,8 @@ requestRepair(){
 
 let scooter1 = new Scooter
 
-// scooter1.charge = 15;
-// scooter1.recharge()
+scooter1.charge = 15;
+scooter1.recharge()
 
 
 module.exports = Scooter

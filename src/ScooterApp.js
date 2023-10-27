@@ -86,7 +86,6 @@ dockScooter(scooter, station){
    this.stations[station].push(scooter);
    console.log(`Scooter ${scooter} docked at ${station}`)
 }
-
 }
 
 
